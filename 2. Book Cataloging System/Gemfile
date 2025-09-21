@@ -1,0 +1,14 @@
+# Gemfile
+# - Sinatra: small Ruby web framework (our "GUI" in the browser)
+# - Puma: fast web server
+# - json: stdlib; included with Ruby 3.x but listing here is fine
+
+source "https://rubygems.org"
+
+gem "sinatra", "~> 3.2"
+gem "puma", "~> 6.0"
+
+# Dev niceties (optional)
+group :development do
+  gem "rerun", "~> 0.14" # auto-reload app when files change (run with: rerun "ruby app.rb")
+end

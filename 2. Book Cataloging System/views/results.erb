@@ -1,0 +1,24 @@
+<section class="card">
+  <h2>Results for "<%= h @q %>" in <%= h @field %></h2>
+  <% if @results.empty? %>
+    <p>No matches found.</p>
+  <% else %>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th><th>Author</th><th>Genre</th><th>Year</th>
+        </tr>
+      </thead>
+      <tbody>
+      <% @results.each do |b| %>
+        <tr>
+          <td><%= h b[:title] %></td>
+          <td><%= h b[:author] %></td>
+          <td><%= h b[:genre] %></td>
+          <td><%= h(b[:year]) %></td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  <% end %>
+</section>

@@ -1,0 +1,18 @@
+<section class="card">
+  <h2>Search</h2>
+  <form method="get" action="/search/results" class="form-grid">
+    <label>Search term
+      <input type="text" name="q" placeholder="e.g., Tolkien or Fantasy" required />
+    </label>
+    <label>Field
+      <select name="field" required>
+        <option value="title">Title</option>
+        <option value="author">Author</option>
+        <option value="genre">Genre</option>
+      </select>
+    </label>
+    <div class="actions">
+      <button type="submit">Search</button>
+    </div>
+  </form>
+</section>

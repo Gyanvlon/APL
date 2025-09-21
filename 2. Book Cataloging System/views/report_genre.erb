@@ -1,0 +1,15 @@
+<section class="card">
+  <h2>Books by Genre</h2>
+  <% if @by_genre.empty? %>
+    <p>No data yet.</p>
+  <% else %>
+    <% @by_genre.each do |genre, arr| %>
+      <h3><%= h genre.capitalize %> (<%= arr.size %>)</h3>
+      <ul>
+        <% arr.sort_by { |b| b[:title].downcase }.each do |b| %>
+          <li><strong><%= h b[:title] %></strong> — <%= h b[:author] %> (<%= h(b[:year]) %>)</li>
+        <% end %>
+      </ul>
+    <% end %>
+  <% end %>
+</section>

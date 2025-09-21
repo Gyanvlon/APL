@@ -1,0 +1,32 @@
+<section class="card">
+  <h2>All Books</h2>
+  <% if params["removed"] %>
+    <p class="notice">Book removed successfully.</p>
+  <% end %>
+  <% if @books.empty? %>
+    <p>No books yet. Try <a href="/books/new">adding one</a>.</p>
+  <% else %>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th><th>Author</th><th>Genre</th><th>Year</th><th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+      <% @books.each do |b| %>
+        <tr>
+          <td><%= h b[:title] %></td>
+          <td><%= h b[:author] %></td>
+          <td><%= h b[:genre] %></td>
+          <td><%= h (b[:year]) %></td>
+          <td>
+            <form method="post" action="/books/<%= b[:id] %>/delete" onsubmit="return confirm('Delete this book?');">
+              <button type="submit">Delete</button>
+            </form>
+          </td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  <% end %>
+</section>

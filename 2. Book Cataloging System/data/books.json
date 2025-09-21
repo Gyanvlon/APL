@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1a2b3c4d-1111-2222-3333-abcdef123456",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "year": 1937
+  },
+  {
+    "id": "2b3c4d5e-1111-2222-3333-abcdef123456",
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "year": 1949
+  },
+  {
+    "id": "3c4d5e6f-1111-2222-3333-abcdef123456",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Classic",
+    "year": 1960
+  },
+  {
+    "id": "4d5e6f7g-1111-2222-3333-abcdef123456",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Romance",
+    "year": 1813
+  },
+  {
+    "id": "5e6f7g8h-1111-2222-3333-abcdef123456",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Classic",
+    "year": 1951
+  },
+  {
+    "id": "6f7g8h9i-1111-2222-3333-abcdef123456",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic",
+    "year": 1925
+  },
+  {
+    "id": "7g8h9i0j-1111-2222-3333-abcdef123456",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "year": 1997
+  },
+  {
+    "id": "8h9i0j1k-1111-2222-3333-abcdef123456",
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "genre": "Thriller",
+    "year": 2003
+  },
+  {
+    "id": "9i0j1k2l-1111-2222-3333-abcdef123456",
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "genre": "Post-Apocalyptic",
+    "year": 2006
+  },
+  {
+    "id": "0j1k2l3m-1111-2222-3333-abcdef123456",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Adventure",
+    "year": 1988
+  }
+]

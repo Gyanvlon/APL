@@ -1,0 +1,21 @@
+<section class="card">
+  <h2>Add a Book</h2>
+  <form method="post" action="/books" class="form-grid">
+    <label>Title
+      <input type="text" name="title" required />
+    </label>
+    <label>Author
+      <input type="text" name="author" required />
+    </label>
+    <label>Genre
+      <input type="text" name="genre" required />
+    </label>
+    <label>Year (optional)
+      <input type="number" name="year" />
+    </label>
+    <div class="actions">
+      <button type="submit">Add</button>
+      <a class="button secondary" href="/books">Cancel</a>
+    </div>
+  </form>
+</section>
